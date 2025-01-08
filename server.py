@@ -11,7 +11,7 @@ db_config = {
     "host": "localhost",
     "user": "root",
     "password": "",
-    "database": "test_db"
+    "database": "puskesmas_db"
 }
 
 # Initialize FastAPI app
