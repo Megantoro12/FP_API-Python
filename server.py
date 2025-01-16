@@ -19,7 +19,7 @@ app = FastAPI()
 
 # Pydantic models
 class DataPasien(BaseModel):
-    id_pasien: int = None  # Auto-incrementing primary key
+    id_pasien: int = None  # A.I primary key
     nama_lengkap: str
     umur: int
     jenis_kelamin: str
