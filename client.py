@@ -21,7 +21,7 @@ def get_float_input(prompt): #Meminta pengguna untuk memasukkan input bertipe fl
         try:
             return float(input(prompt))
         except ValueError:
-            print("Masukkan tidak sesuai, harap masukkan angka.")
+            print("Masukkan tidak sesuai, harap masukkan angka desimal.")
 
 def create_data_pasien(): #Kirim permintaan POST untuk membuat pasien baru.
     while True:
